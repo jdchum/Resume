@@ -111,6 +111,10 @@ div.contact-info > div > img {
     margin-right: 12px;
 }
 
+div.contact-info a {
+    color: rgba(0, 0, 0, .6);
+}
+
 div.divider {
     background: rgba(0, 0, 0, .2);
     width: 75%;

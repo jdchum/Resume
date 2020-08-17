@@ -3,8 +3,6 @@ const ejse = require('ejs-electron');
 const { app, BrowserWindow } = require('electron');
 
 app.once('ready', async () => {
-    // await win.loadURL(`file://${__dirname}/index.html`);
-
     const resumeData = require('./resume.json');
 
     // Keep personal contact info in environment variables

@@ -1,0 +1,93 @@
+{
+  "name": "Joshua Chumbley",
+  "github_url": "github.com/jdchum/Resume",
+  "role": "Full Stack Developer",
+  "languages": [
+    "Javascript",
+    "Typescript",
+    "Go",
+    "Python",
+    "Rust",
+    "C#",
+    "SQL",
+    "HTML5",
+    "CSS3"
+  ],
+  "technologies": [
+    "Node.js",
+    "React",
+    "Django",
+    "React Native",
+    "Express.js",
+    "Electron",
+    "MySQL",
+    "SQLite3",
+    "PostgreSQL",
+    "WPF",
+    "UWP",
+    "Docker",
+    "Digital Ocean",
+    "Google Cloud",
+    "AWS Lambda",
+    ".NET Core",
+    ".NET Framework"
+  ],
+  "experience": [
+    {
+      "company": "Swagit Productions",
+      "description": "Swagit Productions specializes in hands-free video streaming for public education as well as local, state, and federal government meeting bodies.",
+      "roles": [
+        {
+          "title": "Software Engineer",
+          "start": "May 2019",
+          "end": "Present",
+          "duties": [
+            "Develop and maintain industry leading hands-free broadcast systems",
+            "Collaborate with vendors and partners to ensure optimal integrations between hardware and software",
+            "Research industry trends and make recommendations to executive management pertaining to business direction"
+          ]
+        }
+      ]
+    },
+    {
+      "company": "FlowTrac",
+      "description": "FlowTrac offers best-in-class inventory management services with customizable software solutions for both web and mobile platforms.",
+      "roles": [
+        {
+          "title": "Mobile Application Developer",
+          "start": "Feb 2019",
+          "end": "Apr 2019",
+          "duties": [
+            "Design, implement, and document software libraries and utilities for rapid development of data intensive cross-platform mobile applications"
+          ]
+        }
+      ]
+    },
+    {
+      "company": "Swagit Productions",
+      "description": null,
+      "roles": [
+        {
+          "title": "Research & Development Technician",
+          "start": "Jan 2018",
+          "end": "Feb 2019",
+          "duties": [
+            "Designed and launched the Avior™ product line to remotely control robotic cameras and video routing equipment from anywhere on Earth",
+            "Develop products and solutions based upon business requirements, industry trends, and end user feedback",
+            "Plan, develop, test, and maintain enterprise software solutions for real-time remote broadcast control and low latency video-over-IP streaming"
+          ]
+        },
+        {
+          "title": "Video Streaming Support Technician",
+          "start": "Mar 2016",
+          "end": "Jan 2018",
+          "duties": [
+            "Provide support and maintenance for 500+ remote servers",
+            "Track incident reports and work toward resolutions with end users",
+            "Develop scripts and applications to improve product support"
+          ]
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,219 @@
+@font-face {
+    font-family: 'Gotham';
+    src: url('./assets/GothamMedium.ttf');
+}
+
+@font-face {
+    font-family: 'GothamBook';
+    src: url('./assets/GothamBook.ttf');
+}
+
+body {
+    background: #DDD;
+}
+
+div.page {
+    display: grid;
+    grid-template-columns: .5fr 1fr;
+    position: relative;
+    margin: 0 auto 2em;
+    width: 8.5in;
+    height: 11in;
+    box-sizing: border-box;
+    padding: .5in;
+    box-shadow: 0 12px 16px rgba(0, 0, 0, .3), 0 -2px 8px rgba(255, 255, 255, .6);
+    background: white;
+    color: black;
+    border-radius: 2px;
+    font-family: 'Gotham', Helvetica, Arial, sans-serif;
+    text-align: center;
+    overflow: hidden;
+}
+
+@media print {
+    body {
+        background: none;
+    }
+
+    div.page {
+        display: grid;
+        grid-template-columns: .5fr 1fr;
+        position: relative;
+        margin: 0;
+        width: 100%;
+        height: auto;
+        box-sizing: border-box;
+        padding: 0;
+        box-shadow: none;
+        background: none;
+        border-radius: 0;
+        overflow: visible;
+    }
+}
+
+div.info-column {
+    box-sizing: border-box;
+    padding-right: 16px;
+}
+
+div.portrait-container {
+    box-sizing: border-box;
+    padding: 0 48px 16px;
+}
+
+img#portrait {
+    width: 100%;
+    border-radius: 50%;
+}
+
+div.name {
+    position: relative;
+    box-sizing: border-box;
+    font-weight: bold;
+    text-transform: uppercase;
+    letter-spacing: .2em;
+    line-height: 1.25em;
+    font-family: 'Gotham', Helvetica, Arial, sans-serif;
+    font-size: 20pt;
+    margin-bottom: 32px;
+}
+
+div.name > span.role {
+    display: block;
+    font-size: 10pt;
+    line-height: 1em;
+    margin-top: 8px;
+    color: rgba(34, 34, 34, .6);
+    letter-spacing: .1em;
+}
+
+div.contact-info {
+    display: flex;
+    flex-direction: column;
+    font-family: 'Gotham', Helvetica, Arial, sans-serif;
+    color: rgba(0, 0, 0, .6);
+    font-size: 9pt;
+}
+
+div.contact-info > div {
+    display: flex;
+    align-content: center;
+    margin-bottom: 32px;
+}
+
+div.contact-info > div:last-of-type {
+    margin-bottom: 0;
+}
+
+div.contact-info > div > img {
+    height: 14px;
+    width: 18px;
+    margin-right: 12px;
+}
+
+div.divider {
+    background: rgba(0, 0, 0, .2);
+    width: 75%;
+    height: 1px;
+    margin: 32px auto;
+}
+
+div.tag-group {
+    font-size: 9pt;
+    margin-bottom: 32px;
+}
+
+div.tag-group-title {
+    letter-spacing: .1em;
+    text-transform: uppercase;
+    color: rgba(0, 0, 0, .8);
+    text-align: center;
+    margin-bottom: 24px;
+}
+
+div.tag {
+    display: inline-block;
+    color: white;
+    background: #0677B9;
+    box-sizing: border-box;
+    padding: 6px 10px;
+    border-radius: 4px;
+    margin-bottom: 4px;
+}
+
+div.experience-column {
+    box-sizing: border-box;
+    padding-left: 16px;
+    text-align: left;
+}
+
+div.section-title {
+    box-sizing: border-box;
+    padding-bottom: .5em;
+    border-bottom: 1px solid rgba(0, 0, 0, .2);
+    font-size: 11pt;
+    text-transform: uppercase;
+    color: rgba(0, 0, 0, .8);
+    letter-spacing: .2em;
+    margin-bottom: 1em;
+}
+
+div.block {
+    box-sizing: border-box;
+    padding: 1.5em;
+    background: #F9F9F9;
+    border-radius: 6px;
+    font-size: 10pt;
+    line-height: 1.5em;
+    margin-bottom: 1em;
+}
+
+div.block:last-of-type {
+    margin-bottom: 0;
+}
+
+div.company-container {
+    box-sizing: border-box;
+    padding-left: 1em;
+    border-left: 4px solid rgba(0, 0, 0, .1);
+}
+
+div.block-title {
+    text-transform: uppercase;
+    letter-spacing: .1em;
+    font-size: 11pt;
+}
+
+div.block-time {
+    font-size: 8pt;
+    text-transform: uppercase;
+    color: rgba(0, 0, 0, .4);
+}
+
+div.block-role {
+    color: rgba(0, 0, 0, .6);
+}
+
+div.block-role.second-position {
+    margin-top: 2em;
+}
+
+div.block-description, div.company-description {
+    font-family: GothamBook, sans-serif;
+    font-size: 8pt;
+    margin: 1em 0 0;
+}
+
+div.company-description {
+    font-style: italic;
+    color: rgba(0, 0, 0, .8);
+}
+
+div.block-description > ul {
+    padding-left: 32px;
+    margin: 1em 0 0;
+}
+
+div.block-description > ul > li {
+    margin-bottom: .5em;
+}

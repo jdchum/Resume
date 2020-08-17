@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Preview</title>
+    <link rel="stylesheet" href="./style.css">
+</head>
+<body>
+<div class="page">
+    <div class="info-column">
+        <div class="name">
+            <div class="portrait-container">
+                <img id="portrait" src="assets/selfie.png" alt="Portrait" />
+            </div>
+            <%= name %>
+            <span class="role"><%= role %></span>
+        </div>
+        <div class="divider"></div>
+        <div class="contact-info">
+            <div>
+                <img src="./assets/location.svg" alt="Location" />
+                <span><%= location %></span>
+            </div>
+            <div>
+                <img src="./assets/email.svg" alt="Email" />
+                <span><%= email %></span>
+            </div>
+            <div>
+                <img src="./assets/phone.svg" alt="Phone" />
+                <span><%= phone %></span>
+            </div>
+            <div>
+                <img src="./assets/github.svg" alt="GitHub" />
+                <span><%= github_url %></span>
+            </div>
+        </div>
+        <div class="divider"></div>
+        <div class="tag-group">
+            <div class="tag-group-title">Languages</div>
+            <% for (let lang of languages) { %>
+                <div class="tag"><%= lang %></div>
+            <% } %>
+        </div>
+        <div class="tag-group">
+            <div class="tag-group-title">Technologies</div>
+            <% for (let tech of technologies) { %>
+                <div class="tag"><%= tech %></div>
+            <% } %>
+        </div>
+    </div>
+    <div class="experience-column">
+        <div class="section-title">Work Experience</div>
+        <% for (let exp of experience) { %>
+            <div class="block">
+                <% for (let role of exp.roles) { %>
+                    <% const isFirstRole = exp.roles.indexOf(role) === 0; %>
+                    <div class="company-container">
+                        <% if (isFirstRole) { %>
+                            <div class="block-title"><%= exp.company %></div>
+                        <% } %>
+                        <div class="<%= isFirstRole ? 'block-role' : 'block-role second-position'%>">
+                            <%= role.title %>
+                        </div>
+                        <div class="block-time"><%= role.start %> - <%= role.end %></div>
+                    </div>
+                    <% if (isFirstRole && exp.description !== null) { %>
+                        <div class="company-description"><%= exp.description %></div>
+                    <% } %>
+                    <div class="block-description">
+                        <ul>
+                            <% for (let duty of role.duties) { %>
+                                <li><%= duty %></li>
+                            <% } %>
+                        </ul>
+                    </div>
+                <% } %>
+            </div>
+        <% } %>
+    </div>
+</div>
+</body>
+</html>

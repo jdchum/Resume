@@ -1,0 +1,18 @@
+{
+  "name": "@jdchum/resume",
+  "private": true,
+  "version": "1.0.0",
+  "author": "Joshua Chumbley",
+  "description": "Professional résumé powered by Electron",
+  "main": "app.js",
+  "scripts": {
+    "start": "electron .",
+    "pdf": "electron . --pdf"
+  },
+  "devDependencies": {
+    "electron": "^9.2.0"
+  },
+  "dependencies": {
+    "ejs-electron": "^2.1.1"
+  }
+}

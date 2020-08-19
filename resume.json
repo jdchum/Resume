@@ -42,9 +42,9 @@
           "start": "May 2019",
           "end": "Present",
           "duties": [
-            "Develop and maintain industry leading hands-free broadcast systems",
-            "Collaborate with vendors and partners to ensure optimal integrations between hardware and software",
-            "Research industry trends and make recommendations to executive management pertaining to business direction"
+            "Develop industry leading remote broadcast and streaming systems using Node.js, Go, and .NET backends, React for web and Electron clients, and React Native mobile applications for both iOS and Android",
+            "Build on-prem and cloud products used for mission critical applications in governments across the U.S. and Canada",
+            "Integrate with third-party RESTful and WebSocket APIs to build spoken language transcription and translation applications using Python and Go"
           ]
         }
       ]
@@ -58,7 +58,7 @@
           "start": "Feb 2019",
           "end": "Apr 2019",
           "duties": [
-            "Design, implement, and document software libraries and utilities for rapid development of data intensive cross-platform mobile applications"
+            "Designed and implemented internal software libraries for rapid development of data intensive cross-platform mobile applications using React Native for iOS and Android"
           ]
         }
       ]
@@ -72,9 +72,9 @@
           "start": "Jan 2018",
           "end": "Feb 2019",
           "duties": [
-            "Designed and launched the Avior™ product line to remotely control robotic cameras and video routing equipment from anywhere on Earth",
-            "Develop products and solutions based upon business requirements, industry trends, and end user feedback",
-            "Plan, develop, test, and maintain enterprise software solutions for real-time remote broadcast control and low latency video-over-IP streaming"
+            "Designed and launched the Avior™ product line to remotely control robotic cameras and video equipment using Node.js, .NET, and Electron",
+            "Reduced the cost of broadcast solutions by building robust integrations with hardware, leading to a marked increase in sales since 2017",
+            "Developed real time control applications for cloud, web, on-prem servers, and mobile platforms based on business requirements and end user feedback"
           ]
         },
         {
@@ -82,9 +82,8 @@
           "start": "Mar 2016",
           "end": "Jan 2018",
           "duties": [
-            "Provide support and maintenance for 500+ remote servers",
-            "Track incident reports and work toward resolutions with end users",
-            "Develop scripts and applications to improve product support"
+            "Provided support and maintenance for 500+ remote servers",
+            "Developed scripts and applications to streamline product support"
           ]
         }
       ]

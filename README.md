@@ -1,6 +1,6 @@
 # Personal Résumé
 
-![Job Search](https://img.shields.io/badge/looking%20for%20work-casually-blue)
+![Job Search](https://img.shields.io/badge/looking%20for%20work-no-green)
 
 > PDF generator for my professional résumé/CV powered by [Electron](https://www.electronjs.org/)
 
